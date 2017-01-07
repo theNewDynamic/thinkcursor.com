@@ -1,0 +1,17 @@
+.sans-serif {font-family: var(--brand-font)}
+
+.bg-primary-color-dark { background-color: var(--primary-color-dark)}
+.bg-primary-color { background-color: var(--primary-color)}
+.bg-primary-color-light { background-color: var(--primary-color-light)}
+
+
+.bg-accent-color-dark { background-color: var(--dark-accent-color)}
+.bg-accent-color { background-color: var(--accent-color)}
+.bg-accent-color-light { background-color: var(--accent-color-light)}
+
+
+.text-on-primary-color { color: var(--text-on-primary-color)}
+.primary-text-color { color: var(--primary-text-color)}
+.secondary-text-color { color: var(--secondary-text-color)}
+.disabled-text-color { color: var(--disabled-text-color)}
+.divider-color { color: var(--divider-color)}
