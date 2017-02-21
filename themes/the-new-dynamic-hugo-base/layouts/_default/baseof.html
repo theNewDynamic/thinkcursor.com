@@ -14,14 +14,17 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-     {{ .Hugo.Generator }}
+
 
      {{ partial "seo/main" . }}
-     <link href='/css/main.min.css' rel='stylesheet' type="text/css" />
+     <link href='/css/main.min.css?201702202214' rel='stylesheet' type="text/css" />
      <link href='/css/tachyons-print.min.css' rel='stylesheet' media="print" type="text/css" />
 
      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
+     <style media="screen">
+       .nested-links-header a{ color: black;text-decoration: none;}
+       .nested-links-header a:hover{ color: white; text-decoration: underline;}
+     </style>
   </head>
   <body class="w-100 vh-100 sans-serif">
     {{ block "nav" . }}{{ partial "nav" . }}{{ end }}

@@ -5,7 +5,7 @@
 .bg-primary-color-light { background-color: var(--primary-color-light)}
 
 
-.bg-accent-color-dark { background-color: var(--dark-accent-color)}
+/*.bg-accent-color-dark { background-color: var(--dark-accent-color)}*/
 .bg-accent-color { background-color: var(--accent-color)}
 .bg-accent-color-light { background-color: var(--accent-color-light)}
 
